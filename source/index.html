@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>PINK</title>
   </head>
-  <body>
-  <header>
-    <nav class="main-nav">
+  <body class="page__body">
+  <header class="page__header page-header">
+    <nav class="page-header__nav main-nav">
       <div class="main-nav__bar">
         <a class="main-nav__logo logo">
           <picture>
-            <img src="img/pink-logo-mobile.svg" width="74" height="23" alt="Логотип компании pink">
+            <img src="img/icon/pink-logo-mobile.svg" width="74" height="23" alt="Логотип компании pink">
           </picture>
         </a>
         <button class="main-nav__toggle" type="button">
@@ -37,5 +37,75 @@
     </nav>
   </header>
 
+  <main class="page__main page-main">
+    <h1 class="visually-hidden">Сайт компании PINK</h1>
+
+    <header class="page-main__header promo">
+      <div class="container">
+        <p class="promo__intro"> Взглядните на жизнь иначе!</p>
+        <img class="promo__image" src="img/screen-mobile.png" width="320" height="286" alt="Изображение скриншота приложения">
+        <div class="promo__app download-app">
+          <a class="download-app__button" href="#">Скачать приложение</a>
+          <ul class="download-app_list app-list">
+            <li class="app-list__item">
+              <img src="img/apple-logo.svg" width="47" height="56" alt="">
+            </li>
+            <li class="app-list__item">
+              <img src="img/android-logo.svg" width="43" height="47" alt="">
+            </li>
+            <li class="app-list__item">
+              <img src="img/microsoft-logo.svg" width="44" height="41" alt="">
+            </li>
+          </ul>
+          <p class="app__text">
+            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-main__section about-app">
+      <div class="container">
+        <div class="about-app__intro">
+          <p class="about-app__text">Устали от серости мегаполиса?</p>
+          <p class="about-app__text">Нам есть, что вам предложить!</p>
+        </div>
+        <ul class="about-app__list">
+          <li class="about-app__item">
+            <h3 class="about-app__heading">Поднимает настроение</h3>
+            <p class="about-app__description">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </p>
+          </li>
+          <li class="about-app__item">
+            <h3 class="about-app__heading">Меняет мир вокруг</h3>
+            <p class="about-app__description">
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+            </p>
+          </li>
+          <li class="about-app__item">
+            <h3 class="about-app__heading">Заводит новых друзей</h3>
+            <p class="about-app__description">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+            </p>
+          </li>
+        </ul>
+        <img src="img/iphone-screen.png" width="157" height="320" alt="Изображение скриншота приложения">
+      </div>
+    </section>
+
+    <section class="page-main__section effect">
+      <div class="container">
+        <h2 class="effect__heading">Эффект на 24 часа!</h2>
+        <p class="effect__text">
+          Британские ученые провели исследования
+          и доказали, что положительный эффект
+          от использования приложения длится целые сутки!
+        </p>
+        <a class="effect__learn-more" href="#">Узнать больше об исследовании</a>
+      </div>
+    </section>
+
+  </main>
   </body>
 </html>
